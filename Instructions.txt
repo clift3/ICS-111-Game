@@ -1,0 +1,24 @@
+Instructions:
+
+Clicking play will start the game. (default difficulty is normal)
+Clicking difficulty will bring up a difficulty menu.
+	Click easy, normal, or hard to change the difficulty.
+		Clicking any difficulty will return to the main menu.
+	Click back to return to the main menu.
+Clicking credits will bring up a credit window. Closing this will close the whole program.
+Clicking exit will close the program.
+
+After clicking play:
+Use wasd keys to move the character. Combining two keys will move the character diagonally. 
+	Ex. w + d moves the character up and to the right.
+
+If the player is hit by an object, the game will end and return to the main menu.
+Going over a star with the character will grant the player invincibility for 5 seconds.
+	While invincible, colliding with an object will not result in a game over.
+	The number above the character shows the remaining time of invincibility in seconds.
+		Obtaining a star while invincible will refresh the timer to 5 seconds of invincibility.
+
+Score is kept at the top right corner of the screen. The longer you survive, the higher the score.		 
+The character's hitbox is in the center of the character. 
+
+
